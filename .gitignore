@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # Downloaded datasets
-/data/fashion_mnist/
+
