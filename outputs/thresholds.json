@@ -1,0 +1,24 @@
+{
+  "selected_model": "ae_latent16",
+  "ae_latent16": {
+    "normal_class": 7,
+    "selected_percentile": 95,
+    "selection_reason": "Highest validation F1 among the P95 configurations.",
+    "thresholds": {
+      "90": 0.01765337772667408,
+      "95": 0.021267607808113098,
+      "99": 0.03367424011230469
+    },
+    "selected_threshold": 0.021267607808113098
+  },
+  "ae_latent64": {
+    "normal_class": 7,
+    "selected_percentile": 95,
+    "thresholds": {
+      "90": 0.01692497916519642,
+      "95": 0.020842209458351135,
+      "99": 0.03138284757733345
+    },
+    "selected_threshold": 0.020842209458351135
+  }
+}

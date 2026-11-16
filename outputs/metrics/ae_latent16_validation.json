@@ -1,0 +1,56 @@
+{
+  "latent_dim": 16,
+  "checkpoint": "D:\\advanceAI\\outputs\\checkpoints\\ae_latent16.pth",
+  "best_epoch": 30,
+  "validation_normal_count": 1200,
+  "validation_mixed_count": 2400,
+  "validation_mixed_normal_count": 1200,
+  "validation_mixed_anomaly_count": 1200,
+  "roc_auc": 0.9831291666666666,
+  "thresholds": {
+    "90": 0.01765337772667408,
+    "95": 0.021267607808113098,
+    "99": 0.03367424011230469
+  },
+  "metrics_by_percentile": {
+    "90": {
+      "threshold": 0.01765337772667408,
+      "precision": 0.9048374306106265,
+      "recall": 0.9508333333333333,
+      "f1": 0.9272653392929704,
+      "false_positive_rate": 0.1,
+      "confusion_matrix": {
+        "tn": 1080,
+        "fp": 120,
+        "fn": 59,
+        "tp": 1141
+      }
+    },
+    "95": {
+      "threshold": 0.021267607808113098,
+      "precision": 0.948849104859335,
+      "recall": 0.9275,
+      "f1": 0.9380530973451328,
+      "false_positive_rate": 0.05,
+      "confusion_matrix": {
+        "tn": 1140,
+        "fp": 60,
+        "fn": 87,
+        "tp": 1113
+      }
+    },
+    "99": {
+      "threshold": 0.03367424011230469,
+      "precision": 0.988360814742968,
+      "recall": 0.8491666666666666,
+      "f1": 0.9134917077543703,
+      "false_positive_rate": 0.01,
+      "confusion_matrix": {
+        "tn": 1188,
+        "fp": 12,
+        "fn": 181,
+        "tp": 1019
+      }
+    }
+  }
+}
